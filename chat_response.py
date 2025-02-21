@@ -13,4 +13,4 @@ messages = [HumanMessage(content="自己紹介してください。")]
 print(messages)
 
 result = llm.invoke(messages)
-print(result.content)
+print("応答:",result.content)
