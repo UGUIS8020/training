@@ -1,3 +1,5 @@
+# langgraphを使用して、8回以上の会話を要約する機能をテストしてます
+
 from typing import Literal
 from langchain_core.messages import SystemMessage, RemoveMessage
 from langgraph.checkpoint.memory import MemorySaver
